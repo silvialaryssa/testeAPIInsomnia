@@ -1,0 +1,10 @@
+_id: ut_900340a894a14a0987569f3b12a12810
+type: UnitTest
+parentId: uts_73d87e1979df4968be67f81ce62f87ee
+modified: 1681264593045
+created: 1681264587020
+requestId: listarUsingGET
+name: Retornar Todas as Viagens
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

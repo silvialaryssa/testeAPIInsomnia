@@ -1,0 +1,10 @@
+_id: ut_12736228b7b943478f1c934145f84155
+type: UnitTest
+parentId: uts_73d87e1979df4968be67f81ce62f87ee
+modified: 1681265581791
+created: 1681262858595
+requestId: gerarTokenJwtUsingPOST
+name: Criar token
+code: |
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

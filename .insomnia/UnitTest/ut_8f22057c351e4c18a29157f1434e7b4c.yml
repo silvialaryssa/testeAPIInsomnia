@@ -1,0 +1,10 @@
+_id: ut_8f22057c351e4c18a29157f1434e7b4c
+type: UnitTest
+parentId: uts_73d87e1979df4968be67f81ce62f87ee
+modified: 1681264005496
+created: 1681264002351
+requestId: verificaStatusAplicacaoUsingGET
+name: "Verificar Status da Aplicacao "
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

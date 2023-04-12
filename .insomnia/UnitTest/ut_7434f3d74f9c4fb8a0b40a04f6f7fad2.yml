@@ -1,0 +1,10 @@
+_id: ut_7434f3d74f9c4fb8a0b40a04f6f7fad2
+type: UnitTest
+parentId: uts_73d87e1979df4968be67f81ce62f87ee
+modified: 1681263942709
+created: 1681263922700
+requestId: cadastrarUsingPOST
+name: Cadastrar Viagem
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(201);
